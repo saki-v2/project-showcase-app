@@ -150,3 +150,41 @@ input{
 .delete-btn:hover {
   background: #b20000;
 }
+
+@media (max-width: 768px) {
+    .main-body {
+        border-radius: 1.5rem;
+        min-height: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-body {
+        border-radius: 1.25rem;
+    }
+
+    .search {
+        margin-top: 1.5rem;
+    }
+
+    .submit-btn {
+        width: 100%;
+        align-self: stretch;
+    }
+
+    .card {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .card-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .delete-btn {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px 14px;
+    }
+}
